@@ -61,7 +61,7 @@ if(calculation.includes('+')){
 
         }else if(calculation.includes('-')){
           let split = calculation.split('-');
-          let result = Number(split[0]);
+          result = Number(split[0]);
           split.forEach((number, index)=>{
             if(index > 0){
              if(number.includes('*')){
@@ -156,7 +156,6 @@ if(calculation.includes('+')){
 
     }
     
-    // keyboard function section
 
     document.addEventListener('keydown', (event)=>{
       if(event.key === 'Enter' || event.key === '='){
